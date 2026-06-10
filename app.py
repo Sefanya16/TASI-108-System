@@ -384,4 +384,4 @@ else:
     st.markdown("<div class='divider'></div>", unsafe_allow_html=True)
     col_empty = st.columns([1, 2, 1])
     with col_empty[1]:
-        st.info("👆 Silakan unggah gambar daun terlebih dahulu untuk memulai deteksi penyakit.")
+        st.info("👆 Silakan unggah gambar daun terlebih dahulu untuk memulai deteksi penyakit.") 
