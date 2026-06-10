@@ -342,7 +342,7 @@ if image is not None:
 
     if button_clicked:
         with st.spinner('⏳ Gambar daun sedang diperiksa...'):
-            results = model.predict(image)
+            results = model.predict(image, conf=0.1)
             annotated_img = results[0].plot()
             annotated_img_rgb = annotated_img[..., ::-1]
 
